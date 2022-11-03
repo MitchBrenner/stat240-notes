@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body > *{
+    padding: 10px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Space Mono', monospace;
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: #111;
+    transition: .5s ease;
+    width: fit-content;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+.notes{
+    display: flex;
+    flex-direction: column;
+}
+
+.notes a{
+    color: blueviolet;
+    position: relative;
+    left: 20px;
+}
+
+.notes a:hover{
+    color: rgb(84, 29, 136);
+}
+
+.notes .title{
+    font-weight: 500;
+}
